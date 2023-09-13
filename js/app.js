@@ -18,7 +18,7 @@ const enviarInfo = (e) => {
   }
   mensajesRecibidos.push(motivo, mensajeDelUsuario);
   console.log(mensajesRecibidos);
-  console.log(textArea);
+  console.log(mensajeDelUsuario);
 };
 const form = document.getElementById("formContacto");
 form.addEventListener("submit", enviarInfo, false);
