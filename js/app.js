@@ -22,3 +22,4 @@ const enviarInfo = (e) => {
 };
 const form = document.getElementById("formContacto");
 form.addEventListener("submit", enviarInfo, false);
+console.log('lalaal')
