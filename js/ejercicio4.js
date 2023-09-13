@@ -1,1 +1,0 @@
-prompt("Nombre de usuario: ")
